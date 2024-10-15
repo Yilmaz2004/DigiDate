@@ -1,0 +1,16 @@
+{
+    "name": "digidate/mailer_logger",
+    "description": "A PHP tool for sending emails using PHPMailer and logging user activities with Monolog.",
+    "type": "library",
+    "require": {
+        "phpmailer/phpmailer": "^6.9",
+        "monolog/monolog": "^3.7"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Digidate\\MailerLogger\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
